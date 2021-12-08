@@ -1,0 +1,83 @@
+$btnColor : #6C63FF;
+$txtColor:#2F2E41;
+$unpressedTxtColor:#9893A3;
+$bckgroundColor:#F2F2F2;
+
+body {
+    background-color: white;
+}
+
+.mainlogo-row {
+    display: flex;
+    color: $txtColor;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+
+.navbarcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 80%;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.navbarcontainer div {
+    flex:auto;
+    
+    
+}
+
+
+.mainlogo-row a{
+    font-size: 24px;
+}
+.navbar {
+
+    text-align: center;
+
+}
+
+
+
+.navbar a {
+    width: 22px;
+    font-family: Open Sans;
+    font-style: normal;
+    color: $unpressedTxtColor;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 20px;
+    margin-left: 36px;
+    opacity: 1;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: $txtColor;
+    border-bottom: 3px solid $btnColor;
+}
+.startButtons :first-child{
+    margin-right: 20px;
+}
+.startButtons{
+    flex-wrap: wrap;
+}
+
+.btn-login {
+    color: $btnColor;
+    background-color: white;
+    font-style: normal;
+    font-weight: bold;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 19px;
+    height: 51px;
+    width: 120px;
+       
+}
